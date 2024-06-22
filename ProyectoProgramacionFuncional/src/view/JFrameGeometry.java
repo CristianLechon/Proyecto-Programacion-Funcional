@@ -1,13 +1,13 @@
-package View;
+package view;
 
 import controller.Container;
 
 import javax.swing.*;
 import java.awt.*;
 
-public class JFrameG extends JFrame {
+public class JFrameGeometry extends JFrame {
 
-    public JFrameG(String tittle) {
+    public JFrameGeometry(String tittle) {
         super(tittle);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new GridLayout(1, 2));

@@ -1,4 +1,4 @@
-import View.JFrameG;
+import view.JFrameGeometry;
 
 /**
  *
@@ -9,7 +9,7 @@ import View.JFrameG;
 
 public class Main {
     public static void main(String[] args) {
-        JFrameG jFrameG = new JFrameG("Geometries");
+        JFrameGeometry jFrameG = new JFrameGeometry("Geometries");
         jFrameG.setVisible(true);
     }
 }
